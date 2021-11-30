@@ -1,0 +1,10 @@
+extend type Mutation {
+
+    addPerson(familyTreeId: ID, name: String): Person!
+
+}
+
+type Person {
+    id: ID!
+    givenNames: String
+}
